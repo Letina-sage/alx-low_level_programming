@@ -19,6 +19,7 @@ int _putchar(char c);
 typedef struct funckey
 {
 	void (*f)(va_list);
+	char spec;
 } funckey;
 
 #endif
